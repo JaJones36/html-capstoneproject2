@@ -1,0 +1,77 @@
+body{
+  background-color: #2C394B;
+}
+
+.nav a{
+  color:#FF4C29 !important;
+  font-family: 'Oswald', sans-serif;
+}
+
+
+.btn{
+  color:#FF4C29;
+  font-family: 'Oswald', sans-serif;
+}
+
+.btn:hover{
+background-color: #FF4C29;
+color:#082032;
+}
+
+.nav a:hover { 
+  color: #082032 !important; 
+  background-color: #FF4C29;
+}
+
+p{
+  color:#FF4C29;
+  font-family: 'Raleway', sans-serif;
+  }
+
+h1{
+  color:#FF4C29;
+  font-family: 'Oswald', sans-serif;
+	font-size: 1px;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #082032;
+}
+
+.card-title{
+  color:#FF4C29;
+  font-family: 'Oswald', sans-serif;
+	font-size: 40px;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #082032;
+}
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+} 
+
+.card-body{
+  background: #082032;
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, #082032, #334756, #FF4C29);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+footer{
+  background-color: #082032;
+
+}
